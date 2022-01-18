@@ -49,7 +49,7 @@ const [spinnerOn, setSpinnerOn] = useState(true);
 
   return (
     <div className='widget-spinner container'>
-      <h2>Spinner</h2>
+      <h2>SpInner</h2>
       {
        spinnerOn &&  <div id='spinner' className='spinner'>--+--</div> /* STEP 2 */
       }
